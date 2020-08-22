@@ -1,12 +1,14 @@
 body{
-  background-image: url("../images/backgrnd2.jpg");
+  background-image: url("../images/backgrnd.jpg");
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .header{
     margin-top: 200px;
     font-size:x-large; 
-    color: white;
+    color:gray;
     text-align: center;
 }
 
@@ -20,34 +22,39 @@ body{
     justify-content: space-around;
     align-items: stretch;
     text-align: center;
+    
 }
-
 
 .skill{
   
   height: auto;
   /* background-color: coral; */
-  border: lightgray solid;
-  color: aliceblue;
-  font-size: larger;
+  border: lightgray solid 1px;
+  color: grey;
+  border-radius: 10px;
+  font-size: large;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;  
   width: 16%;
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 }
 .img{
-  margin-left: 60px;
-  width: 90px;
-  height: 90px;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
   
 }
 
 
 
 .home{
-  background-color: rgb(255, 255, 255);
-  border: lightgray;
+  background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
@@ -56,8 +63,9 @@ body{
   border-radius: 8px;
 }
 .about{
-  background-color: rgb(255, 255, 255);
-  border: lightgray;
+  background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
@@ -67,8 +75,9 @@ body{
 }
 
 .resume{
-  background-color: rgb(255, 255, 255);
-  border: lightgray;
+  background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
@@ -87,4 +96,16 @@ body{
   position: fixed;
   bottom: 0;
   cursor: pointer;
+}
+
+.linkedin{
+  width: 30px;
+}
+
+.behance{
+  width: 30px;
+}
+.footerButtons{
+  border: none;
+  background-color: transparent;
 }
