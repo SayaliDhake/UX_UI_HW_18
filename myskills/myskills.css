@@ -1,0 +1,90 @@
+body{
+  background-image: url("../images/backgrnd2.jpg");
+}
+
+
+.header{
+    margin-top: 200px;
+    font-size:x-large; 
+    color: white;
+    text-align: center;
+}
+
+.skillContainer{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */ 
+    /* justify-items: center;
+    padding-left: 40%;
+    padding-top: 5%;*/
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+}
+
+
+.skill{
+  
+  height: auto;
+  /* background-color: coral; */
+  border: lightgray solid;
+  color: aliceblue;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  width: 16%;
+  
+}
+.img{
+  margin-left: 60px;
+  width: 90px;
+  height: 90px;
+  
+}
+
+
+
+.home{
+  background-color: rgb(255, 255, 255);
+  border: lightgray;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.about{
+  background-color: rgb(255, 255, 255);
+  border: lightgray;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.resume{
+  background-color: rgb(255, 255, 255);
+  border: lightgray;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-end;
+  padding-top: 15%;
+  margin: 4px 2px;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+}
