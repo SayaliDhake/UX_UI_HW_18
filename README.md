@@ -1,8 +1,10 @@
 # UX_UI_HW_18
-#Github Page links
-#My Skills 
+
+Github Page links
+
+My Skills 
 https://sayalidhake.github.io/UX_UI_HW_18/myskills/
 
-#My Work
+My Work
 https://sayalidhake.github.io/UX_UI_HW_18/mywork/
  
